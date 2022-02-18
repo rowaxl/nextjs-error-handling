@@ -1,9 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next build && next start"
   },
   "dependencies": {
     "@sentry/nextjs": "^6.15.0",
