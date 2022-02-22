@@ -172,7 +172,55 @@ const Index = () => (
       </li>
 
       <li>
-        Error in outside of Page Render
+        Throwing Sync Logic Error
+        <ul>
+          <li>
+            <Link href="/errors/callSyncError">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/callSyncError" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Throwing Sync Logic Error in Hook
+        <ul>
+          <li>
+            <Link href="/errors/throwInHook">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/throwInHook" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Throwing Async Logic Error (with axios)
+        <ul>
+          <li>
+            <Link href="/errors/callAsyncError">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/callAsyncError" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Throw Asnyc Error in outside of Page Render
         <ul>
           <li>
             <Link href="/errors/outsideOfPage">
