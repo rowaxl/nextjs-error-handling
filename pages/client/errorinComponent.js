@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 
 const ErrorComponent = () => {
+  console.log('in Error Component');
   const snycError = () => {
-    throw new Error('Render Error');
+    throw new Error('Render Error in Component');
   };
 
   useEffect(() => {
@@ -12,7 +13,8 @@ const ErrorComponent = () => {
   return <>renderError</>;
 };
 
-const Test1 = () => {
+const ErrorInComponentPage = () => {
+  console.log('in Error Page');
   return (
     <div>
       <h1>Error Throwed when component mounted</h1>
@@ -21,4 +23,4 @@ const Test1 = () => {
   );
 };
 
-export default Test1;
+export default ErrorInComponentPage;
