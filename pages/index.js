@@ -140,6 +140,22 @@ const Index = () => (
       </li>
 
       <li>
+        Throwing Error Randomly
+        <ul>
+          <li>
+            <Link href="/errors/randomlyThrow">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/randomlyThrow" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
         Throwing Runtime Error
         <ul>
           <li>
@@ -149,6 +165,22 @@ const Index = () => (
           </li>
           <li>
             <a href="/errors/onClick" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Error in outside of Page Render
+        <ul>
+          <li>
+            <Link href="/errors/outsideOfPage">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/outsideOfPage" target="_blank">
               Open in new tab
             </a>
           </li>
