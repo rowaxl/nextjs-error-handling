@@ -79,12 +79,12 @@ const Index = () => (
         Error in Page Render
         <ul>
           <li>
-            <Link href="/client/errorInPage">
+            <Link href="/errors/inPage">
               <a>Navigation</a>
             </Link>
           </li>
           <li>
-            <a href="/client/errorInPage" target="_blank">
+            <a href="/errors/inPage" target="_blank">
               Open in new tab
             </a>
           </li>
@@ -95,12 +95,12 @@ const Index = () => (
         Error in Component Render
         <ul>
           <li>
-            <Link href="/client/errorinComponent">
+            <Link href="/errors/inComponent">
               <a>Navigation</a>
             </Link>
           </li>
           <li>
-            <a href="/client/errorinComponent" target="_blank">
+            <a href="/errors/inComponent" target="_blank">
               Open in new tab
             </a>
           </li>
@@ -108,15 +108,47 @@ const Index = () => (
       </li>
 
       <li>
-        Error in getStaticProps
+        Error in outside of Page Render
         <ul>
           <li>
-            <Link href="/client/erroringetStaticProps">
+            <Link href="/errors/outsideOfPage">
               <a>Navigation</a>
             </Link>
           </li>
           <li>
-            <a href="/client/erroringetStaticProps" target="_blank">
+            <a href="/errors/outsideOfPage" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Error in getServerSideProps
+        <ul>
+          <li>
+            <Link href="/errors/getServerSideProps/500">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/getServerSideProps/500" target="_blank">
+              Open in new tab
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        Throwing Runtime Error
+        <ul>
+          <li>
+            <Link href="/errors/onClick">
+              <a>Navigation</a>
+            </Link>
+          </li>
+          <li>
+            <a href="/errors/onClick" target="_blank">
               Open in new tab
             </a>
           </li>

@@ -17,7 +17,8 @@ export default GetServerSidePropsPage;
 // export const getServerSideProps = async (ctx) => {
 //   const { id } = ctx.query;
 
-//   if (id === '404') {
+//   if (id === '500') {
+//     throw new Error('Error in getServerSideProps');
 //     return {
 //       notFound: true,
 //     };
